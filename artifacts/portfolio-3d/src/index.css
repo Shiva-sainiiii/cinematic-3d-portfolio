@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #050505;
+  --fg: #f0f0f0;
+  --accent: #6efaff;
+  --accent2: #a855f7;
+  --accent3: #f97316;
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: 'Space Mono', monospace;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+canvas {
+  display: block;
+}
+
+.font-display {
+  font-family: 'Syncopate', sans-serif;
+}
